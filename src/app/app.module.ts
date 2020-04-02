@@ -4,12 +4,14 @@ import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { NavbarAppComponent } from './navbar/navbar.component';
+import { WallsliderAppComponent } from './wallslider/wallslider.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarAppComponent
+    NavbarAppComponent,
+    WallsliderAppComponent
   ],
   imports: [
     BrowserModule,

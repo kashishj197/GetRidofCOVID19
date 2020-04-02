@@ -1,7 +1,8 @@
 .navbar {
     justify-content: space-between;
+    background-color: #024289;
 }
 
 .nav-item{
-    padding-left: 0.8rem;
+    padding-left: 1rem;
 }
