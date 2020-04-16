@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NavbarAppComponent } from './navbar/navbar.component';
 import { WallsliderAppComponent } from './wallslider/wallslider.component';
 import { GraphAppComponent } from './graph/graph.component';
+import { GuidelinesAppComponent } from './guidelines/guidelines.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     NavbarAppComponent,
     WallsliderAppComponent,
-    GraphAppComponent
+    GraphAppComponent,
+    GuidelinesAppComponent
   ],
   imports: [
     BrowserModule,
