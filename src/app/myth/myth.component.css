@@ -1,0 +1,29 @@
+.myth{
+    background-color: #F0F9FE;
+}
+
+.heading {
+    color: #F0A530;
+    padding: 10px 20px;
+}
+
+.paragraph {
+    margin: 5px 10px; 
+}
+
+.btn-blue{
+    color: white;
+    background-color: #1d3a7c;
+    border-radius: 100px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    transition-delay: 100ms;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+
+.btn-blue:hover {
+    background-color: #153D98;
+}
