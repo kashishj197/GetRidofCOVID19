@@ -13,7 +13,22 @@
     color: #024289;
 }
 
-.container {
+.guide-container {
     padding: 30px;
     background-color: #F2F6EC;
+}
+
+.poster{
+    background-color: #FFF1B0;
+    padding: 5px;
+}
+
+.poster-heading-1{
+    color: #FA7C01;
+    padding: 14px;
+}
+
+.poster-heading-2{
+    color: #47B749;
+    padding: 14px;
 }

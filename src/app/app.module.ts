@@ -10,6 +10,7 @@ import { WallsliderAppComponent } from './wallslider/wallslider.component';
 import { GraphAppComponent } from './graph/graph.component';
 import { GuidelinesAppComponent } from './guidelines/guidelines.component'
 import { MythAppComponent } from './myth/myth.component'
+import { WarAppComponent } from './war/war.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -19,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     WallsliderAppComponent,
     GraphAppComponent,
     GuidelinesAppComponent,
-    MythAppComponent
+    MythAppComponent,
+    WarAppComponent
   ],
   imports: [
     BrowserModule,
