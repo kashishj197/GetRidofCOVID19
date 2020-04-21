@@ -28,7 +28,7 @@ export class GraphAppComponent {
       });
     this.changeDetector.detectChanges();
     this.chart = new Chart('canvas', {
-      type: 'bar',
+      type: 'horizontalBar',
       data: {
         labels: this.state,
         datasets: [{
