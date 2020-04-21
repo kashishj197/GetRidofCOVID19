@@ -2,6 +2,16 @@
     background-color: #F0F9FE;
 }
 
+.myth-img{
+    height: 50px;
+    width: 50px;
+}
+
+.myth-fact {
+    font-size: 12px;
+    font-weight: 2px;
+}
+
 .heading {
     color: #F0A530;
     padding: 10px 20px;
