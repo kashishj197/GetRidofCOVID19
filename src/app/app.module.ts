@@ -11,6 +11,7 @@ import { GraphAppComponent } from './graph/graph.component';
 import { GuidelinesAppComponent } from './guidelines/guidelines.component'
 import { MythAppComponent } from './myth/myth.component'
 import { WarAppComponent } from './war/war.component';
+import { FooterAppComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     GraphAppComponent,
     GuidelinesAppComponent,
     MythAppComponent,
-    WarAppComponent
+    WarAppComponent,
+    FooterAppComponent
   ],
   imports: [
     BrowserModule,
