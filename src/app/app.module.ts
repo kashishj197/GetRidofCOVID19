@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './material.module';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { GraphService } from './graph/graph.service';
 
 import { AppComponent } from './app.component';
@@ -12,7 +13,9 @@ import { GuidelinesAppComponent } from './guidelines/guidelines.component'
 import { MythAppComponent } from './myth/myth.component'
 import { WarAppComponent } from './war/war.component';
 import { FooterAppComponent } from './footer/footer.component';
+import { HelpdeskComponent } from './helpdesk/helpdesk.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -23,16 +26,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     GuidelinesAppComponent,
     MythAppComponent,
     WarAppComponent,
-    FooterAppComponent
+    FooterAppComponent,
+    HelpdeskComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [GraphService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [HelpdeskComponent]
 })
 export class AppModule { 
 

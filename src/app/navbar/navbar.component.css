@@ -4,5 +4,14 @@
 }
 
 .nav-item{
-    padding-left: 1rem;
+    padding-right: 1rem;
+    transition-delay: 300;
+}
+
+.nav-item a{
+    color:white;
+}
+
+.nav-item a:hover{
+    color: grey;
 }
